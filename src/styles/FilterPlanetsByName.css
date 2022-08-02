@@ -1,0 +1,13 @@
+.input-search-container {
+  text-align: center;
+  width: 100vw;
+}
+
+.input-search-container > input {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+.forms-container {
+  display: flex;
+  margin: 10px;
+}
+
+.forms-container > select, input, button {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 1px;
+  outline: none;
+  padding: 10px;
+}
+
+.forms-container > button {
+  cursor: pointer;
+}
+
+.radio-container > label {
+  display: inline-flex;
+}
