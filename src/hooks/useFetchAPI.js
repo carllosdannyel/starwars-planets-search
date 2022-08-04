@@ -9,8 +9,7 @@ const useFetchAPI = (setAPI, setCloneAPI) => {
           .results.filter((planets) => delete planets.residents);
         const planetsSort = resultsFilter.sort((a, b) => {
           if (a.name < b.name) return MENOSUM;
-          if (a.name > b.name) return 1;
-          return 0;
+          return 1;
         });
         setAPI(planetsSort);
         setCloneAPI(planetsSort);
